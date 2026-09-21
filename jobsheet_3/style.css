@@ -1,0 +1,81 @@
+.navbar,
+.hero,
+.produk-section,
+extra-section,
+.footer{
+    width: 90%;
+    max-width: 1100px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 1px solid #777;
+}
+
+.navbar{
+    display: flex;
+    margin-top: 20px;
+    background-color: #dcecff;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero {
+    margin-top: 15px;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+}
+.hero-container{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    border: 2px solid black;
+}
+.hero-text{
+    flex: 11 400px;
+    padding: 20px;
+}
+.hero-text h1{
+    border: 1px solid #777;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 24px;
+}
+.hero-text p{
+    border: 1px solid #aaa;
+    padding: 5px;
+    margin-bottom: 8px;
+}
+.btn-primary{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 18px;
+    background-color: #1559a6;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #0b376b;
+    border-radius: 3px;
+}
+.hero-image{
+    flex: 11 400px;
+    padding: 10px;
+}
+.image-placeholder{
+    min-height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #777;
+    background-color: f1f1f1;
+    color: #555;
+}
+
